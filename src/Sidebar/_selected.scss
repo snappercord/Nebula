@@ -1,0 +1,28 @@
+// Private
+.selected-aXhQR6 .layout-2DM8Md{
+  background-color: var(--background-tertiary) !important;
+}
+.channel-2QD9_O:hover:not([href="/library"]):not([href="/discovery"]):not([href="/channels/@me"]){
+  background-color: var(--background-secondary);
+}
+
+.channel-2QD9_O:not([href="/store"]):not([href="/library"]):not([href="/discovery"]):not([href="/channels/@me"]){
+  max-width: calc(var(--sidebar-width) - 20px);
+  margin: 0 !important;
+}
+
+// Channel
+
+.content-1x5b-n {
+  border-radius: var(--primary-rounding);
+  margin: 0 var(--primary-spacing);
+}
+.modeSelected-346R90 .content-1x5b-n {
+  background-color: var(--background-secondary-alt);
+  &:hover {
+    background-color: var(--background-secondary-alt);
+  }
+}
+.wrapper-2jXpOf:hover .content-1x5b-n {
+  background-color: var(--background-secondary);
+}

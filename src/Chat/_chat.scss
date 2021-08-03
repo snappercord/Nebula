@@ -1,0 +1,27 @@
+.chat-3bRxxu{
+    margin: 0 var(--primary-spacing) var(--primary-spacing) 0;
+    border-radius: var(--primary-rounding);
+    background-color: transparent;
+    .content-yTz4x3{
+        margin-top: var(--primary-spacing);
+        .chatContent-a9vAAp{
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            .scroller-2LSbBU{
+                border-radius: var(--primary-rounding);
+                .cozy-3raOZG.wrapper-2a6GCs{
+                    border-radius: 0 var(--primary-rounding) var(--primary-rounding) 0;
+                }
+            }
+            .channelTextArea-3bF57p{
+                .scrollableContainer-2NUZem{
+                    background-color: var(--background-tertiary);
+                    border-radius: var(--primary-rounding) !important;
+                }
+            }
+        }
+        &::before{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Root Variables           ║ Root variables are placed for global use across all files. Edit them all to your liking ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+.theme-dark, .theme-light{
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Primary Variable         ║ Primary Variables specifically for background-colors, text colors, colors in general.   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+    --background-primary: #25294A;
+    --background-secondary: #202442;
+    --background-secondary-alt: #2D325A;
+    --background-tertiary: #1B1F38;
+
+    --button-primary: var(--background-secondary-alt);
+    --button-hover: var(--background-secondary);
+    
+    --background-modifier-hover: transparent !important;
+
+    --text-normal: #D8DEE9;
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Secondary Variables      ║ Secondary Variables focus on valued variables for width, height, etc.                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+ 
+    --user-popout-width: 300px;
+    --user-modal-width: 600px;
+    --sidebar-width: 260px;
+
+    --primary-rounding: 4px;
+    --primary-spacing: 10px;
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Tertiary Variables       ║ Tertiary Variables focus on variables that have calculations in it. (calc).             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+    --secondary-spacing: calc(var(--primary-spacing) * 2);
+    --tertiary-spacing: calc(var(--primary-spacing) * 4);
+
+    --secondary-rounding: calc(var(--primary-rounding) * 2);
+    --tertiary-rounding: calc(var(--primary-rounding) * 4);
+
+    --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
+    --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+    --server-container: calc(var(--server-size) + 20px); // Keep at 20px;
+    
+
+}

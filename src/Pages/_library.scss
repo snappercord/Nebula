@@ -1,0 +1,18 @@
+.container-3Mxszk{
+    margin: 0 var(--primary-spacing) var(--primary-spacing) 0;
+    border-radius: var(--primary-rounding);
+    .libraryHeader-3g95kE{
+        .selected-3s45Ha{
+            background-color: var(--background-secondary) !important;
+            border-radius: var(--primary-rounding);
+        }
+        &::before{
+            display: none;
+        }
+    }
+    .scroller-1IIF0A,
+    .scroller-2XE8rp{
+        border-radius: var(--primary-rounding);
+        margin-top: var(--primary-spacing);
+    }
+}

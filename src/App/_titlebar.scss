@@ -1,0 +1,29 @@
+.withFrame-haYltI{
+    background-color: var(--background-primary);
+    margin-bottom: var(--primary-spacing);
+    margin-top: 0 !important;
+    height: 32px;
+    .winButton-iRh8-Z{
+        margin-left: calc(var(--primary-spacing) / 2.5);
+        height: 32px;
+        width: 42px;
+        top: 0;
+    }
+    .winButtonMinMax-PBQ2gm:hover{
+        background-color: rgba(255, 255, 255, 0.06);
+    }
+    .wordmarkWindows-1v0lYD{
+        svg{
+            width: 0;
+        }
+        &::before{
+            left: var(--primary-spacing);
+            content: "Nebula Alpha";
+            position: absolute;
+            font-weight: 700;
+            font-size: 16px;
+            width: 125px;
+            top: 7px;
+        }
+    }
+}

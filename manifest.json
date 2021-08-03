@@ -1,0 +1,9 @@
+{
+    "name": "Nebula",
+    "description": "Round, Deep sea blue, consistent, Nebula!",
+    "version": "1.0.0",
+    "author": "Lorem#3481",
+    "theme": "index.scss",
+    "consent": "true",
+    "license": "MIT"
+}

@@ -1,0 +1,124 @@
+.root-3QyAh1{
+    background-color: transparent !important;
+    .topSection-y3p-_D{
+        background-color: transparent;
+        border-radius: var(--primary-rounding);
+        padding-top: calc(var(--tertiary-spacing) * 1.75);
+        header{
+            background-color: var(--background-primary);
+            padding-bottom: var(--tertiary-spacing);
+            border-radius: var(--primary-rounding);
+            margin-bottom: var(--primary-spacing);
+            padding-top: var(--primary-spacing);
+            .nameTagNoCustomStatus-3IWmZC{
+                margin: var(--primary-spacing) !important;
+            }
+            .nameTagWithCustomStatus-2kkfrQ{
+                margin: var(--primary-spacing);
+            }
+            .customStatusActivity-nmH3DF{
+                padding-top: var(--secondary-spacing) !important;
+                padding: var(--primary-spacing);
+                padding-bottom: 0 !important;
+            }
+            .headerTop-547GTz{
+                top: var(--secondary-spacing);
+                left: var(--primary-spacing);
+                .badgeList-1R1WgZ:empty::before{
+                    color: var(--header-secondary);
+                    font-family: var(--font-display);
+                    text-transform: uppercase;
+                    content: 'no badges';
+                    font-weight: 700;
+                    font-size: 13px;
+                }
+            }
+            .banner-2QYc2d{
+                width: calc(var(--user-modal-width) - 150px);
+                left: calc(var(--tertiary-spacing) * 3.25);
+                border-radius: var(--primary-rounding);
+                margin: var(--primary-spacing);
+                margin-top: 0 !important;
+                height: 120px;
+            }
+            .avatar-AvHqJA{
+                background-color: transparent;
+                left: var(--primary-spacing);
+                border: none;
+                top: -130px;
+                svg{
+                    foreignObject{
+                        mask: none;
+                        img{
+                            border-radius: var(--primary-rounding);
+                        }
+                    }
+                }
+            }
+        }
+        .tabBarContainer-37hZsr{
+            width: calc(var(--user-modal-width) - 40px);
+            background-color: var(--background-tertiary);
+            border-radius: var(--primary-rounding);
+            margin-top: var(--primary-spacing);
+            left: var(--primary-spacing);
+            position: absolute;
+            border: none;
+            .tabBar-3nvOPa{
+                justify-content: center;
+                .tabBarItem-3dfX8P{
+                    background-color: var(--background-primary);
+                    border-radius: var(--primary-rounding);
+                    margin: var(--primary-spacing) 5px;
+                    justify-content: center;
+                    width: 100px;
+                    border: none;
+                }
+                [aria-selected="true"]{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+    }
+    .body-r6_QPy{
+        padding-top: calc(var(--tertiary-spacing) * 1.6);
+        background-color: var(--background-primary);
+        border-radius: var(--primary-rounding);
+        .infoScroller-1Qu30O{
+            padding-right: var(--primary-spacing) !important;
+            margin-top: var(--primary-spacing);
+            padding: var(--primary-spacing);
+            padding-top: 0 !important;
+            .userInfoSection-q_35fn{
+                &:first-child{
+                    background-color: var(--background-tertiary);
+                    border-radius: var(--primary-rounding);
+                    padding: var(--primary-spacing);
+                    margin: var(--primary-spacing) 0;
+                    margin-top: 0 !important;
+                }
+                &:nth-child(2){
+                    padding: 0 0 var(--secondary-spacing) 0;
+                    border: none;
+                    .connectedAccount-2Jb-Z0{
+                        background-color: var(--background-tertiary);
+                        border-radius: var(--primary-rounding);
+                        max-width: 260px;
+                        border: none;
+                    }
+                }
+            }
+            .pc-connections .connectedAccounts-QlRa4m:empty{
+                display: none;
+            }
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .noTabBar-3ZjPNR{
+        padding-bottom: var(--primary-spacing);
+        padding-top: 0 !important;
+        border: none;
+    }
+}

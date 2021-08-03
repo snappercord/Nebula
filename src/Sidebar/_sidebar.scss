@@ -1,0 +1,17 @@
+.sidebar-2K8pFh{
+    padding-top: calc(var(--server-size) + var(--secondary-spacing));
+    border-radius: var(--primary-rounding) !important;
+    margin: var(--primary-spacing);
+    background-color: transparent;
+    width: var(--sidebar-width);
+    margin-top: 0 !important;
+    &::before{
+        height: calc(var(--tertiary-spacing) + calc(var(--server-size) + var(--tertiary-spacing)));
+        background-color: var(--background-primary);
+        border-radius: var(--primary-rounding);
+        width: var(--sidebar-width);
+        position: absolute;
+        content: '';
+        top: 0;
+    }
+}

@@ -1,0 +1,99 @@
+.notice-3bPHh-{
+    background-color: var(--background-secondary-alt);
+    width: calc(var(--sidebar-width) - 20px);
+    border-radius: var(--primary-rounding);
+    left: var(--secondary-spacing);
+    color: transparent;
+    position: absolute;
+    box-shadow: none;
+    font-size: 12px;
+    padding: 0;
+    height: 90px;
+    bottom: calc(var(--tertiary-spacing) + calc(var(--secondary-spacing) + 5px));
+    .closeButton-3cJIM4{
+        display: none
+    }
+    .button-2DhvE9{
+        background-color: var(--background-secondary);
+        border-radius: var(--primary-rounding);
+        border: none;
+        &:hover{
+            background-color: var(--background-primary);
+            color: var(--text-muted);
+        }
+    }
+}
+.colorDefault-22HBa0{
+    &::before{
+        content: 'Your connected on another platform.';
+        position: absolute;
+        line-height: 20px;
+        font-size: 16px;
+        color: #fff;
+        height: fit-content;
+        width: fit-content;
+        top: 5px;
+    }
+    .button-2DhvE9{
+        margin-left: 6px;
+        top: -15px;
+    }
+}
+.notice-2X5hT5{
+    .header-1g25vm{
+        display: none;
+    }
+    .lookOutlined-3sRXeN.colorWhite-rEQuAQ{
+        background-color: var(--background-secondary);
+        width: 70px;
+        border: none;
+        &:hover{
+            background-color: var(--background-primary);
+        }
+    }
+    .back-1Ess-_{
+        right: var(--primary-spacing) !important;
+        top: var(--primary-spacing);
+        position: absolute;
+        margin: 0rem;
+        left: unset;
+    }
+    .button-2PWmas:not(.back-1Ess-_){
+        bottom: var(--primary-spacing);
+        right: var(--primary-spacing);
+        position: absolute;
+        .contents-18-Yxp{
+            display: none;
+        }
+        &::before{
+            content: 'Join';
+        }
+    }
+    &::before{
+        background-color: var(--background-secondary);
+        border-radius: var(--primary-rounding);
+        content: 'Your In Preview Mode!';
+        left: var(--primary-spacing);
+        position: absolute;
+        line-height: 25px;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px;
+        width: 50%;
+    }
+}
+.colorStreamerMode-2SJAUN{
+    &::before{
+        background-color: var(--background-secondary);
+        width: calc(var(--sidebar-width) - 40px);
+        border-radius: var(--primary-rounding);
+        content: 'Streamer Mode Enabled!';
+        top: var(--primary-spacing);
+        position: absolute;
+        font-size: 16px;
+        color: #fff;
+    }
+    .button-2DhvE9{
+        top: var(--secondary-spacing);
+    }
+}

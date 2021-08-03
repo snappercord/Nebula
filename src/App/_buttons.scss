@@ -1,0 +1,9 @@
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--button-primary) !important;
+    &:hover{
+        background-color: var(--button-hover) !important;
+    }
+}

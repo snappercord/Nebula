@@ -1,0 +1,27 @@
+.sidebarRegion-VFTUkN{
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    flex: 0 1 var(--sidebar-width);
+    margin: var(--primary-spacing);
+    margin-top: 0 !important;
+    .sidebarRegionScroller-3MXcoP{
+        background-color: transparent;
+        justify-content: center;
+        .sidebar-CFHs9e{
+            padding-top: var(--secondary-spacing) !important;
+            width: calc(var(--sidebar-width) - 20px);
+            padding: var(--primary-spacing) 0;
+            [aria-selected="true"]{
+                background-color: var(--background-secondary);
+            }
+            .side-8zPYf6 .item-PXvHYJ{
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+        }
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}

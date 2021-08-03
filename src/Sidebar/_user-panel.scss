@@ -1,0 +1,50 @@
+.panels-j1Uci_{
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    .container-1giJp5{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+        border: none;
+        .actionButtons-14eAc_{
+            button{
+                background-color: var(--background-secondary) !important;
+                &:hover{
+                    background-color: var(--background-primary) !important;
+                }
+            }
+        }
+    }
+    .powercord-spotify{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        padding-bottom: var(--primary-spacing);
+        margin: var(--primary-spacing);
+        .container-3baos1{
+            margin: 0;
+            .avatar-SmRMf2 {
+                border-radius: var(--primary-rounding) !important;
+            }
+        }
+        .noWrap-3jynv6{
+            display: none;
+        }
+        .spotify-seek{
+            margin: 0 var(--primary-spacing);
+            .spotify-seek-bar{
+                background-color: var(--background-primary);
+                border-radius: var(--primary-rounding);
+                height: 6px;
+                .spotify-seek-bar-progress{
+                    border-radius: var(--primary-rounding);
+                }
+
+            }
+        }
+    }
+    .activityPanel-28dQGo{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+    }
+}

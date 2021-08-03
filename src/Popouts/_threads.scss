@@ -1,0 +1,50 @@
+.chat-3bRxxu.threadSidebarOpen-vdkwIh{
+    border-radius: 0;
+}
+.threadSidebar-1o3BTy{
+    margin: var(--primary-spacing);
+    background-color: transparent;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0;
+    .chat-15Vmww,
+    .chat-1cCjJ5{
+        background-color: var(--background-primary);
+        border-radius: var(--primary-rounding);
+        margin-top: var(--primary-spacing);
+        .container-3RCQyg{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--primary-rounding);
+            padding: var(--primary-spacing);
+            border: none;
+            .iconWrapper-L3hQuc{
+                background-color: var(--background-secondary);
+                border-radius: var(--primary-rounding);
+                margin-top: 0;
+            }
+        }
+    }
+}
+.browser-2NpbWS{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--primary-rounding);
+    box-shadow: none !important;
+    .header-1VS4tm{
+        background-color: var(--background-secondary);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+        [aria-selected="true"]{
+            background-color: var(--background-secondary-alt) !important;
+        }
+    }
+    .activeThreadsList-3f7l7U{
+        padding: 10px 10px 10px 20px !important;
+        .container-2I9Hud{
+            border-radius: var(--primary-rounding);
+            border: none;
+            &:hover{
+                background-color: var(--background-tertiary);
+            }
+        }
+    }
+}
