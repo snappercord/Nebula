@@ -1,3 +1,12 @@
+@keyframes Drawer{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
 .menu-3sdvDG{
     background: var(--background-secondary-alt);
     border-radius: var(--primary-rounding);
@@ -19,6 +28,8 @@
     left: var(--primary-spacing) !important;
     top: calc(var(--tertiary-spacing) * 4.27) !important;
 }
-.styleFixed-sX-yHV{
-    width: var(--sidebar-width);
+.full-motion .scale-3iLZhb.didRender-33z1u8{
+    .styleFixed-sX-yHV{
+        width: var(--sidebar-width);
+    }
 }
