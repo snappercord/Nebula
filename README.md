@@ -19,7 +19,7 @@
 cd powercord/src/powercord/themes && git clone https://github.com/loremly/nebula
 ```
 ### Updates
-Each and every update will be logged in the repos [Changlogs](https://github.com/Loremly/Nebula/blob/main/changelog.md)
+Each and every update as well as information regarding this funky commit names can be found in the repos [Changlogs](https://github.com/Loremly/Nebula/blob/main/changelog.md)
 # License
 ### This project is licensed under the `GNU-GPL v3`. For more information check the raw [License]()
 
