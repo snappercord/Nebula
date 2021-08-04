@@ -1,11 +1,11 @@
 .userPopout-xaxa6l{
     background-color: var(--background-secondary-alt);
     border-radius: var(--primary-rounding);
-    max-height: 90%;
+    max-height: 900px;
     .headerNormal-3KXFBt{
         margin: var(--primary-spacing);
         .banner-2QYc2d{
-            background-color: var(--background-primary) !important;
+            background-color: var(--background-secondary) !important;
             width: calc(var(--user-popout-width) - 20px);
             border-radius: var(--primary-rounding);
             height: 100px;
@@ -93,7 +93,7 @@
             display: none;
         }
         .bodyInnerWrapper-26fQXj{
-            background-color: var(--background-secondary-alt);
+            background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
             padding: var(--primary-spacing);
             .activity-2INFPu{

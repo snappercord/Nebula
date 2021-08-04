@@ -11,14 +11,14 @@
         }
     }
     .animatedContainer-1NSq4T{
-        background-color: var(--background-primary);
-        top: calc(var(--tertiary-spacing) * 1.7);
+        background: linear-gradient(180deg, var(--background-primary) 90%, transparent);
+        top: calc(var(--tertiary-spacing) * 1.8);
         border-radius: var(--primary-rounding);
         transform: none !important;
+        opacity: 1 !important;
         pointer-events: none;
         box-shadow: none;
         height: 145px;
-        opacity: 1 !important;
         z-index: 10;
         .bannerImage-3KhIJ6{
             width: calc(var(--sidebar-width) - 20px);

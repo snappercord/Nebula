@@ -15,3 +15,10 @@
         background-color: var(--background-secondary);
     }
 }
+[style="position: absolute; left: 30px; top: 158px;"]{
+    left: var(--primary-spacing) !important;
+    top: calc(var(--tertiary-spacing) * 4.27) !important;
+}
+.styleFixed-sX-yHV{
+    width: var(--sidebar-width);
+}
