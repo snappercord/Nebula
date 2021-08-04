@@ -21,4 +21,5 @@ Note: Each Commit name will apply for the underclass commit names <br>
 |  1.0.0  | 2021-08-03 6:21 PM EDT |      JSMU     |                   Added Theme Files                  |
 |  1.1.0  | 2021-08-04 12:43 AM EDT|      YACU     | Bug Fixes, Added ReadMe and Changelogs, as seen here |
 |  1.1.1  | 2021-08-04 11:23 AM EDT |      YABF     |         Fixed Changelogs and Manifest version        |
-|  1.2.2  | 2021-08-04 2:20 PM EDT|      YACU     |       Added Status Plus by [LuckFire](https://github.com/Luckfire),  Bug Fixes             |
+|  1.2.2  | 2021-08-04 2:20 PM EDT|      YACU     |Added Status Plus by [LuckFire](https://github.com/Luckfire),  Bug Fixes|
+|  1.2.2  | 2021-08-04 2:23 PM EDT| YACU | Updated ReadME
