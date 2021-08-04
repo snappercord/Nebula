@@ -12,66 +12,9 @@ Commit Names and meanings.
 
 <h1></h1>
 
-<style type="text/css">
-.tg  {
-    border-collapse:collapse;
-    border-spacing:0;
-    width:100%;
-}
-.tg td{
-    border-color:black;
-    border-style:solid;
-    border-width:1px;
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    overflow:hidden;
-    padding:10px 5px;
-    word-break:normal;
-}
-.tg th{
-    border-color:black;
-    border-style:solid;
-    border-width:1px;
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    font-weight:normal;
-    overflow:hidden;
-    padding:10px 5px;
-    word-break:normal;
-}
-.tg .tg-c3ow{
-    border-color:inherit;
-    text-align:center;
-    vertical-align:top;
-}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">Theme Version</th>
-    <th class="tg-c3ow">Commit Date</th>
-    <th class="tg-c3ow">Commit Name</th>
-    <th class="tg-c3ow">Commit Info</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">1.0.0</td>
-    <td class="tg-c3ow">2021-08-01</td>
-    <td class="tg-c3ow">Inital Commit</td>
-    <td class="tg-c3ow">Initial Repository Creation
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1.0.0</td>
-    <td class="tg-c3ow">2021-08-03</td>
-    <td class="tg-c3ow">JSMU</td>
-    <td class="tg-c3ow">Added Theme Files
-  </tr>
-  <tr>
-    <td class="tg-c3ow">1.1.0</td>
-    <td class="tg-c3ow">2021-08-04</td>
-    <td class="tg-c3ow">YACU</td>
-    <td class="tg-c3ow">Bug Fixes, Added Readme and Changelogs, as seen here</td>
-  </tr>
-</tbody>
-</table>
+| Version |    Date    |  Commit Name  |                      Commit Info                     |
+|:-------:|:----------:|:-------------:|:----------------------------------------------------:|
+|  1.0.0  | 2021-08-01 | Inital Commit |              Initial Repository Creation             |
+|  1.0.0  | 2021-08-03 |      JSMU     |                   Added Theme Files                  |
+|  1.1.0  | 2021-08-04 |      YACU     | Bug Fixes, Added ReadMe and Changelogs, as seen here |
+|  1.1.1  | 2021-08-04 |      YABF     |         Fixed Changelogs and Manifest version        |
