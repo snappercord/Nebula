@@ -1,9 +1,11 @@
 .container-1D34oG{
     background-color: transparent !important;
-    margin-right: var(--primary-spacing);
+    margin: var(--primary-spacing);
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
     .topPill-30KHOu{
         [aria-selected="true"]{
-            background-color: var(--background-secondary) !important;
+            background-color: var(--background-secondary-alt) !important;
             border-radius: var(--primary-rounding);
         }
     }

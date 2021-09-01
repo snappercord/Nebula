@@ -19,6 +19,18 @@
                     background-color: var(--background-secondary-alt);
                 }
             }
+            .info-1VyQPT{
+                &:last-child{
+                    &::after{
+                        content: 'Nebula Beta (1.5.2)';
+                        color: var(--text-muted);
+                        display: inline-block;
+                        line-height: 16px;
+                        font-size: 12px;
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
     ::-webkit-scrollbar{

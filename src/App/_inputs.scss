@@ -1,0 +1,22 @@
+.input-cIJ7To{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--primary-rounding);
+    &:hover{
+        border-color: var(--background-primary);
+    }
+    &:focus-within{
+        border-color: var(--background-tertiary);
+    }
+}
+.bar-2Qqk5Z{
+    background-color: var(--background-tertiary);
+    .barFill-23-gu-{
+        background-color: var(--background-secondary-alt);
+    }
+}
+.radioIconForeground-XwlXQN{
+    color: var(--text-normal);
+}
+svg.slider-TkfMQL svg {
+    display: none;
+}

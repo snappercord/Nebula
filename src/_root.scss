@@ -1,49 +1,60 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Root Variables           ║ Root variables are placed for global use across all files. Edit them all to your liking ║
+// ║ Root Variables           ║ Values that can be used globally so I dont have to copy and paste the same value.
+// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Color Variables          ║ Color variables in HEX format will be here.
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-.theme-dark, .theme-light{
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Primary Variable         ║ Primary Variables specifically for background-colors, text colors, colors in general.   ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-    --background-primary: #25294A;
+.theme-dark,
+.theme-light {
+    --background-primary: #25294a;
     --background-secondary: #202442;
     --background-secondary-alt: #2D325A;
     --background-tertiary: #1B1F38;
 
-    --button-primary: var(--background-secondary-alt);
-    --button-hover: var(--background-secondary);
-    
-    --background-modifier-hover: transparent !important;
+    --button-background-primary: #3b4175;
+    --button-background-secondary: #1e2449; 
+    --button-background-hover-primary: #242a5a;
+    --button-background-hover-secondary: #2e3250;
 
-    --header-primary: #fff;
+    --interactive-normal: #d8dee9;
+    --interactive-active: #fff;
+    --interactive-muted: #9f9f9f;
+    --interactive-hover: #bbc0ca;
 
-    --text-normal: #D8DEE9;
+    --scrollbar-auto-thumb: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-secondary-alt);
+    --scrollbar-auto-track: var(--background-secondary);
+
+    --background-modifier-selected: var(--background-secondary-alt);
+    --background-modifier-hover: var(--background-secondary);
+    --background-modifier-active: var(--background-tertiary);
+
+    --channeltextarea-background: var(--background-tertiary);
+    --focus-primary: #fff;
+
+    --header-primary: var(--text-normal);
+    --header-secondary: var(--text-muted);
+    --text-normal: #d8dee9;
+    --text-muted: #9f9f9f;
+
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Secondary Variables      ║ Secondary Variables focus on valued variables for width, height, etc.                   ║
+// ║ Cosmetic Variables       ║ Variables that change the appearance of elements aside from colors                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
- 
-    --user-popout-width: 300px;
-    --user-modal-width: 600px;
-    --sidebar-width: 260px;
+:root{
+    --primary-rounding: 5px;
+    --secondary-rounding: calc(var(--secondary-rounding) * 2);
+    --tertiary-rounding: calc(var(--secondary-rounding) * 2);
 
-    --primary-rounding: 4px;
     --primary-spacing: 10px;
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Tertiary Variables       ║ Tertiary Variables focus on variables that have calculations in it. (calc).             ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
     --secondary-spacing: calc(var(--primary-spacing) * 2);
-    --tertiary-spacing: calc(var(--primary-spacing) * 4);
-
-    --secondary-rounding: calc(var(--primary-rounding) * 2);
-    --tertiary-rounding: calc(var(--primary-rounding) * 4);
+    --tertiary-spacing: calc(var(--secondary-spacing) * 2);
 
     --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
     --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-    --server-container: calc(var(--server-size) + 20px); // Keep at 20px;
-    
+    --server-container: calc(var(--server-size) + 20px);
 
+    --sidebar-width: 280px;
+    --sidebar-content-width-1: 260px;
+    --sidebar-content-width-2: 240px;
 }

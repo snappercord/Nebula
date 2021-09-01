@@ -1,60 +1,84 @@
-.wrapper-2qzCYF.minimum-28Z35l{
-    background-color: var(--background-primary);
+.wrapper-2qzCYF{
+    background-color: var(--background-primary) !important;
     border-radius: var(--primary-rounding);
-    .callAvatarMask-1SLlRi foreignObject{
-        mask: none;
-        .voiceAvatar-14IynY{
+    .callAvatarMask-1SLlRi{
+        foreignObject{
+            mask: none;
+            .voiceAvatar-14IynY{
+                border-radius: var(--primary-rounding);
+            }
+            .status-1WEaea{
+                border-radius: var(--primary-rounding);
+                bottom: -10px;
+                right: -10px
+            }
+            .border-Jn5IOt{
+                border-radius: var(--primary-rounding);
+            }
+        }
+        .wrapper-2QE8vf.ringingIncoming-38YcLn:after,
+        .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after{
             border-radius: var(--primary-rounding);
         }
-        .status-1WEaea{
-            border-radius: var(--primary-rounding);
-            bottom: -15px;
-            right: -15px;
+    }
+    .controlButton-2MhVEL{
+        svg{
+            foreignObject{
+                mask: none;
+            }
         }
     }
     .centerButton-3CaNcJ{
-        background-color: var(--background-tertiary);
+        background-color: var(--background-secondary);
         border-radius: var(--primary-rounding);
+        .controlIcon-35oS15{
+            color: var(--interactive-normal);
+        }
+        &:hover{
+            background-color: var(--background-tertiary);
+        }
     }
-    .contextMenuNub-3yOOYo.colorable-1bkp8v.primaryDark-3mSFDl{
+    .contextMenuNub-3yOOYo{
         background-color: var(--background-secondary-alt);
         border-radius: var(--primary-rounding);
-        bottom: -10px;
-        right: -10px;
+        color: var(--interactive-normal);
+        bottom: -8px;
+        right: -8px;
     }
-    .border-Jn5IOt{
+    .gradientContainer-10lXLB{
+        background: linear-gradient(var(--background-tertiary), transparent);
+    }
+    .tile-2naSqK{
+        background-color: var(--background-secondary-alt);
         border-radius: var(--primary-rounding);
-    }
-}
-.contextMenuContainer-2HlOMK{
-    svg{
-        foreignObject{
-            mask: none;
+        .button-3HqqDX{
+            background-color: var(--button-background-hover-primary);
+            border-radius: var(--primary-rounding);
+            &:hover{
+                background-color: var(--button-background-hover-primary);
+            }
         }
     }
 }
-.centerButton-3CaNcJ{
-    background-color: #1B1F38 !important;
+.root-3JVdIJ{
+    background-color: var(--background-secondary-alt);
     border-radius: var(--primary-rounding);
-}
-.wrapper-2qzCYF{
-    background-color: #25294A;
-    .tile-2naSqK{
+    box-shadow: none;
+    .wrapper-2QE8vf{
+        svg{
+            foreignObject{
+                mask: none;
+                img{
+                    border-radius: var(--primary-rounding);
+                }
+            }
+        }
+    }
+    .actionButton-3CLkPB{
+        background-color: var(--button-background-primary) !important;
         border-radius: var(--primary-rounding);
     }
-    .gradientContainer-10lXLB{
-        background: linear-gradient(180deg, #25294A, transparent 60%);
-    }
 }
-
-.videoGrid-1khsrF{
-    background-color: transparent !important;
-}
-.elevationHigh-3A9Xbf{
-    background-color: var(--background-secondary);
-    border-radius: var(--primary-rounding);
-}
-.wrapper-2QE8vf.ringingIncoming-38YcLn:after,
-.wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after{
+.border-Jn5IOt{
     border-radius: var(--primary-rounding);
 }

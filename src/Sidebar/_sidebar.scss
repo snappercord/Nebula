@@ -1,17 +1,18 @@
 .sidebar-2K8pFh{
-    padding-top: calc(var(--server-size) + var(--secondary-spacing));
     border-radius: var(--primary-rounding) !important;
+    background-color: var(--background-primary);
+    transition: width 250ms ease !important;
     margin: var(--primary-spacing);
-    background-color: transparent;
     width: var(--sidebar-width);
+    margin-right: 0!important;
     margin-top: 0 !important;
-    &::before{
-        height: calc(var(--tertiary-spacing) + calc(var(--server-size) + var(--tertiary-spacing)));
-        background-color: var(--background-primary);
-        border-radius: var(--primary-rounding);
-        width: var(--sidebar-width);
-        position: absolute;
-        content: '';
-        top: 0;
+    ::-webkit-scrollbar{
+        display: none;
     }
+}
+.sidebar-2K8pFh.active{
+    left: var(--primary-spacing);
+    position: relative;
+    width: 0 !important;
+    margin: 0 !important;
 }

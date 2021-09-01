@@ -1,76 +1,16 @@
 .form-2fGMdU{
     padding: 0 var(--primary-spacing);
-    .channelTextArea-rNsIhG{
-        background-color: transparent !important;
-        border-radius: var(--primary-rounding);
-        margin-bottom: var(--primary-spacing);
-        .scrollableContainer-2NUZem{
-            background-color: transparent;
-            overflow: unset;
-            border-radius: 0;
-            opacity: 1;
-            .buttons-3JBrkn{
-                margin-left: var(--primary-spacing) !important;
-                background-color: var(--background-tertiary);
-                border-radius: var(--primary-rounding);
-                margin-right: 0 !important;
-            }
-            .attachWrapper-2TRKBi{
-                border-bottom-left-radius: var(--primary-rounding);
-                border-top-left-radius: var(--primary-rounding);
-                background-color: var(--background-tertiary);
-                width: 50px;
-                .attachButton-2WznTc{
-                    height: 100%;
-                    width: 100%;
-                    margin: 0;
-                    padding: 0;
-                }
-            }
-            .textArea-12jD-V{
-                border-bottom-right-radius: var(--primary-rounding);
-                border-top-right-radius: var(--primary-rounding);
-                background-color: var(--background-tertiary);
-                .fontSize16Padding-3Wk7zP{
-                    padding: var(--primary-spacing);
-                }
-            }
-        }
-        .attachedBars-tZDmyV{
-            background: var(--background-tertiary);
-            border-radius: var(--primary-rounding);
-            margin: var(--primary-spacing) 0;
-            margin-top: 0 !important;
-            .replyBar-1YLQ2F{
-                border-radius: var(--primary-rounding);
-                background-color: transparent;
-            }
-        }
-    }
-    .base-gE7OpD{
-        background-color: var(--background-tertiary);
-        border-radius: var(--primary-rounding) !important;
-        margin: var(--primary-spacing) 0;
-        position: relative;
-        height: 35px;
-        width: 100%;
-        left: 0;
-    }
-    &::before{
-        display: none;
-    }
-    .inner-MADQqc{
-        align-items: center;
-        padding: 0;
-    }
-    .wrapper-39oAo3{
-        margin-bottom: var(--primary-spacing);
-        border-radius: var(--primary-rounding);
-    }
-    .channelTextAreaDisabled-8rmlrp{
-        .textArea-12jD-V{
-            border-bottom-left-radius: var(--primary-rounding) !important;
-            border-top-left-radius: var(--primary-rounding) !important;
-        }
-    }
+}
+.channelTextArea-rNsIhG{
+    background-color: var(--channeltextarea-background);
+    border-radius: var(--primary-rounding);
+    margin-bottom: var(--primary-spacing);
+}
+.base-gE7OpD{
+    background-color: var(--channeltextarea-background);
+    border-radius: var(--primary-rounding);
+    margin-bottom: var(--primary-spacing);
+    position: relative;
+    padding: 4px;
+    left: 0;
 }
