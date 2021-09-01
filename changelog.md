@@ -95,8 +95,8 @@ Note: Each Commit name will apply for the underclass commit names <br>
   </tr>
     <tr>
     <td class="tg-0lax">1.5.2</td>
-    <td class="tg-0lax">Undone</td>
     <td class="tg-0lax">2021-08-31 9:00 PM EDT</td>
+    <td class="tg-0lax">JSMA</td>
     <td class="tg-0lax">Partial theme rework</td>
   </tr>
 </tbody>
