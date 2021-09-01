@@ -4,11 +4,6 @@
 <div style="display:flex; flex-direction: row; grid-gap: 5px;">
     <img alt="extended" src="assets/screenshots/hidden.png" />
     <img alt="hidden" src="assets/screenshots/open.png" />
-    <style>
-        img{
-            height: 152px;
-        }
-    </style>
 </div>
 
 <h1></h1>
