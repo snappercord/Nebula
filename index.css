@@ -227,6 +227,10 @@ svg.slider-TkfMQL svg {
   left: 0;
 }
 
+.wrapper-39oAo3 {
+  margin-bottom: var(--primary-spacing);
+}
+
 .chat-3bRxxu {
   margin: var(--primary-spacing);
   border-radius: var(--primary-rounding);
@@ -1725,11 +1729,17 @@ body.foldercontentopened .base-3dtUhz {
 }
 
 .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim .mask-1l8v16 .pointerEvents-2zdfdO {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
   ry: var(--primary-rounding);
   height: 16px !important;
   width: 16px !important;
   -webkit-mask: none;
           mask: none;
+  x: 60;
+  y: 60;
 }
 
 .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatarHint-2A3RNb {
@@ -2268,6 +2278,7 @@ body.foldercontentopened .base-3dtUhz {
 }
 
 .sidebar-2K8pFh.active {
+  bottom: var(--primary-spacing);
   left: var(--primary-spacing);
   position: relative;
   width: 0 !important;
@@ -2452,6 +2463,7 @@ body.foldercontentopened .base-3dtUhz {
 }
 
 .panels-j1Uci_ .powercord-spotify .spotify-seek {
+  margin: 0 var(--primary-spacing);
   -webkit-transition: none;
   transition: none;
   margin: 0;

@@ -19,6 +19,7 @@
         margin: var(--primary-spacing);
         height: 80px;
         .spotify-seek{
+            margin: 0 var(--primary-spacing);
             transition: none;
             margin: 0;
             .spotify-seek-elements{

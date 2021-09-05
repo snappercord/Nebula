@@ -1,5 +1,5 @@
 <h1> Changelog </h1>
-<p> All notable changes to this project will be documented in this file. 
+<p> All notable changes to this project will be documented in this file.
 
 Commit Names and meanings. </p>
 
@@ -93,11 +93,17 @@ Note: Each Commit name will apply for the underclass commit names <br>
     <td class="tg-0lax">YASU</td>
     <td class="tg-0lax">Redone Changelog.md</td>
   </tr>
-    <tr>
+  <tr>
     <td class="tg-0lax">1.5.2</td>
     <td class="tg-0lax">2021-08-31 9:00 PM EDT</td>
     <td class="tg-0lax">JSMA</td>
     <td class="tg-0lax">Partial theme rework</td>
+  </tr>
+    <tr>
+    <td class="tg-0lax">1.5.6</td>
+    <td class="tg-0lax">2021-09-04 10:08 PM EDT</td>
+    <td class="tg-0lax">YABF</td>
+    <td class="tg-0lax">Bug fixes, plugin support soon.</td>
   </tr>
 </tbody>
 </table>
