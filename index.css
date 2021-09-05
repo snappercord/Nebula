@@ -2498,7 +2498,6 @@ body.foldercontentopened .base-3dtUhz {
   --button-background-hover-secondary: #2e3250;
   --interactive-normal: #d8dee9;
   --interactive-active: #fff;
-  --interactive-muted: #9f9f9f;
   --interactive-hover: #bbc0ca;
   --scrollbar-auto-thumb: var(--background-secondary-alt);
   --scrollbar-thin-thumb: var(--background-secondary-alt);
@@ -2511,7 +2510,6 @@ body.foldercontentopened .base-3dtUhz {
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   --text-normal: #d8dee9;
-  --text-muted: #9f9f9f;
 }
 
 :root {

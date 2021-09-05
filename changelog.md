@@ -105,5 +105,11 @@ Note: Each Commit name will apply for the underclass commit names <br>
     <td class="tg-0lax">YABF</td>
     <td class="tg-0lax">Bug fixes, plugin support soon.</td>
   </tr>
+  <tr>
+    <td class="tg-0lax">1.5.7</td>
+    <td class="tg-0lax">2021-09-04 10:30 PM EDT</td>
+    <td class="tg-0lax">YABF</td>
+    <td class="tg-0lax">Bug fixes</td>
+  </tr>
 </tbody>
 </table>
