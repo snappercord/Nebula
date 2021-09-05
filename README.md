@@ -25,7 +25,7 @@ cd powercord/src/powercord/plugins && git clone https://github.com/loremly/nebul
 ### Updates
 Each and every update as well as information regarding this funky commit names can be found in the repos [Changlogs](https://github.com/Loremly/Nebula/blob/main/changelog.md)
 # License
-### This project is licensed under the `GNU-GPL v3`. For more information check the raw [License]()
+### This project is licensed under the `GNU-GPL v3`. For more information check the raw [License](https://github.com/Loremly/Nebula/blob/main/LICENSE.MD)
 
 # Support
 ### For support go to the [Powercord](https://discord.gg/2dp4n5qdNm) Server
