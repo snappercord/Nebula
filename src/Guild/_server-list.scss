@@ -185,7 +185,8 @@ html.platform-osx #app-mount {
     width: 100%;
   }
   .base-3dtUhz {
-    top: calc(var(--server-container) + 30px) !important;
+    top: var(--primary-spacing);
+    margin-bottom: var(--primary-spacing);
   }
   #pluginNotice {
     top: 32px;

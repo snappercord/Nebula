@@ -123,11 +123,13 @@ svg.slider-TkfMQL svg {
 
 .withFrame-haYltI .wordmarkWindows-1v0lYD::before {
   left: var(--primary-spacing);
-  content: "Nebula Beta";
+  content: "Nebula | Windows Edition";
   position: absolute;
   font-weight: 700;
   font-size: 16px;
-  width: 125px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   top: 7px;
 }
 
@@ -255,6 +257,11 @@ svg.slider-TkfMQL svg {
   border-radius: var(--primary-rounding);
   margin-left: var(--primary-spacing);
   margin-right: var(--primary-spacing);
+}
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU .emptyChannelIcon-cc932w {
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--primary-rounding);
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .channelTextArea-3bF57p .scrollableContainer-2NUZem {
@@ -409,24 +416,24 @@ svg.slider-TkfMQL svg {
   display: none;
 }
 
-.arrow path {
+[aria-label=Hide] .arrow path {
   fill: var(--interactive-normal);
 }
 
-.arrow:hover path {
+[aria-label=Hide] .arrow:hover path {
   fill: var(--interactive-hover);
 }
 
-.nebula-arrow.active {
+[aria-label=Hide] .nebula-arrow.active {
   -webkit-transform: rotateZ(180deg);
           transform: rotateZ(180deg);
 }
 
-.nebula-arrow.active path {
+[aria-label=Hide] .nebula-arrow.active path {
   fill: var(--interactive-active);
 }
 
-.nebula-arrow {
+[aria-label=Hide] .nebula-arrow {
   -webkit-transition: 500ms ease all;
   transition: 500ms ease all;
 }
@@ -857,7 +864,8 @@ html.platform-osx #app-mount .typeMacOS-3EmCyP {
 }
 
 html.platform-osx #app-mount .base-3dtUhz {
-  top: calc(var(--server-container) + 30px) !important;
+  top: var(--primary-spacing);
+  margin-bottom: var(--primary-spacing);
 }
 
 html.platform-osx #app-mount #pluginNotice {
@@ -2484,6 +2492,70 @@ body.foldercontentopened .base-3dtUhz {
 .panels-j1Uci_ .powercord-spotify .spotify-seek .spotify-seek-bar .spotify-seek-bar-progress {
   border-radius: var(--primary-rounding);
   height: 6px;
+}
+
+.platform-linux .base-3dtUhz {
+  margin-top: var(--primary-spacing) !important;
+}
+
+.platform-linux .guilds-1SWlCJ {
+  top: calc(var(--secondary-spacing) + var(--server-container)) !important;
+}
+
+.platform-linux .sidebarRegion-VFTUkN,
+.platform-linux .contentRegion-3nDuYy {
+  margin-top: var(--primary-spacing) !important;
+}
+
+.platform-osx .typeMacOS-3EmCyP {
+  height: 32px;
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC {
+  margin-left: var(--primary-spacing);
+  padding-top: calc(var(--primary-spacing) + 7px);
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC .macButton-c_Adir {
+  margin-right: calc(var(--primary-spacing) / 2);
+  border-radius: calc(var(--primary-rounding) / 2);
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC .macButton-c_Adir:nth-child(1) {
+  background-color: #fc615d !important;
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC .macButton-c_Adir:nth-child(2) {
+  background-color: #fdbc40 !important;
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC .macButton-c_Adir:nth-child(3) {
+  background-color: #34c749 !important;
+  margin-right: var(--primary-spacing);
+}
+
+.platform-osx .typeMacOS-3EmCyP .macButtons-2MuSAC::after {
+  content: "Nebula OSX";
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.platform-osx .privateChannels-1nO12o,
+.platform-osx .container-3w7J-x {
+  padding-top: calc(var(--tertiary-spacing) * 2);
+}
+
+.platform-osx .sidebarRegion-VFTUkN {
+  margin-top: var(--primary-spacing) !important;
+}
+
+.platform-osx .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  margin-top: calc(var(--secondary-spacing) + 0px);
+}
+
+.platform-osx .contentRegion-3nDuYy {
+  margin-top: var(--primary-spacing) !important;
 }
 
 .theme-dark,

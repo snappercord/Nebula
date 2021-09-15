@@ -18,11 +18,11 @@
         }
         &::before{
             left: var(--primary-spacing);
-            content: "Nebula Beta";
+            content: "Nebula | Windows Edition";
             position: absolute;
             font-weight: 700;
             font-size: 16px;
-            width: 125px;
+            width: max-content;
             top: 7px;
         }
     }

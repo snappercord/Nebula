@@ -111,5 +111,11 @@ Note: Each Commit name will apply for the underclass commit names <br>
     <td class="tg-0lax">YABF</td>
     <td class="tg-0lax">Bug fixes</td>
   </tr>
+    <tr>
+    <td class="tg-0lax">1.6.0</td>
+    <td class="tg-0lax">2021-09-14 8:20 PM EDT</td>
+    <td class="tg-0lax">YACU</td>
+    <td class="tg-0lax"> Crossplatform support (NOTE: Button does not work on OSX, will fix in future)</td>
+  </tr>
 </tbody>
 </table>
