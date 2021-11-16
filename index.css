@@ -1377,6 +1377,7 @@ body.foldercontentopened .base-3dtUhz {
   background-color: var(--background-secondary-alt);
   border-radius: var(--primary-rounding);
   margin: var(--primary-spacing) 0;
+  margin-bottom: 0 !important;
 }
 .container-3w7J-x .scroller-RmtA4e .wrapper-PY0fhH {
   color: var(--interactive-normal);
@@ -1428,6 +1429,17 @@ body.foldercontentopened .base-3dtUhz {
 }
 .container-3w7J-x .unreadTop-3rAB3r {
   margin-top: var(--primary-spacing);
+}
+
+.container-3fNISf {
+  background-color: var(--background-primary);
+  border-radius: var(--primary-rounding);
+  margin: var(--primary-spacing);
+  margin-top: -5px !important;
+  padding: 5px;
+}
+.container-3fNISf .divider-3C88Um {
+  display: none;
 }
 
 .container-1taM1r {

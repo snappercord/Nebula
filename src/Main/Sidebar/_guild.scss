@@ -4,6 +4,7 @@
         background-color: var(--background-secondary-alt);
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing) 0;
+        margin-bottom: 0 !important;
         .wrapper-PY0fhH{
             color: var(--interactive-normal);
             .icon-2yIBmh,
@@ -59,5 +60,15 @@
     }
     .unreadTop-3rAB3r{
         margin-top: var(--primary-spacing);
+    }
+}
+.container-3fNISf{
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    margin: var(--primary-spacing);
+    margin-top: -5px !important;
+    padding: 5px;
+    .divider-3C88Um{
+        display: none;
     }
 }

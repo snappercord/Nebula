@@ -51,5 +51,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>THM-RWRK</td>
          <td>Redone Entire theme! Starting back from square one.</td>
       </tr>
+      <tr>
+         <td>2021-11-16</td>
+         <td>BF | M-U</td>
+         <td>Forgot to add screenshot img / Styled boost progress bar element</td>
+      </tr>
    </tbody>
 </table>
