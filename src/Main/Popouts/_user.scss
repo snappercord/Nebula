@@ -1,0 +1,83 @@
+.userPopout-xaxa6l{
+    background-color: transparent;
+    max-height: 720px;
+    box-shadow: none;
+    .headerNormal-3KXFBt{
+        margin-bottom: var(--primary-spacing);
+        .banner-2QYc2d{
+            border-radius: var(--primary-rounding);
+            height: 120px;
+        }
+    }
+    .avatarWrapper-3r9PdD{
+        top: 140px;
+        left: var(--primary-spacing);
+        .avatar-37jOim{
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            border: none;
+            svg{
+                foreignObject{
+                    mask: none;
+                    img{
+                        border-radius: var(--primary-rounding);
+                    }
+                }
+                .pointerEvents-2zdfdO{
+                    pointer-events: none;
+                    height: 16px;
+                    mask: none;
+                    ry: 3;
+                    x: 60;
+                    y: 60;
+                }
+            }
+        }
+        .avatarHint-2A3RNb{
+            border-radius: var(--primary-rounding);
+            left: 0;
+            top: 0;
+            foreignObject{
+                mask: none;
+            }
+        }
+    }
+    .headerTop-3vNv-a{
+        background-color: var(--background-tertiary);
+        border-radius: var(--primary-rounding);
+        padding-top: var(--primary-spacing);
+        padding-left: calc(var(--primary-spacing) * 10);
+        padding-bottom: calc(var(--tertiary-spacing) * 2);
+        height: 42px;
+        .profileBadges-ohc0Vu{
+            max-width: 100%;
+            bottom: var(--primary-spacing);
+            left: var(--primary-spacing);
+            right: unset;
+            top: unset;
+        }
+    }
+    .body-3HBlXn{
+        background-color: var(--background-tertiary);
+        padding: var(--primary-spacing) !important;
+        border-radius: var(--primary-rounding);
+        margin-top: var(--primary-spacing);
+        box-shadow: none;
+        .bodyInnerWrapper-26fQXj{
+            background-color: var(--background-secondary);
+            border-radius: var(--primary-rounding);
+            padding: var(--primary-spacing);
+        }
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .footer-3UKYOU{
+        background-color: var(--background-tertiary);
+        padding: var(--primary-spacing);
+        .input-2_SIlA{
+            border-radius: var(--primary-rounding);
+            border: none;
+        }
+    }
+}

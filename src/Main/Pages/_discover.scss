@@ -1,0 +1,43 @@
+.pageWrapper-1PgVDX{
+    background-color: var(--background-primary) !important;
+}
+.discoverHeader-3th5O9{
+    background-color: transparent;
+    color: transparent;
+    &::after{
+        background-color: var(--background-secondary-alt);
+        position: absolute;
+        height: 50px;
+        width: 260px;
+        content: '';
+        left: 0;
+        z-index: 0;
+        top: -1px;
+    }
+    &::before{
+        border-radius: var(--primary-rounding) var(--primary-rounding) 00;
+        background-color: var(--background-primary);
+        left: var(--primary-spacing);
+        color: var(--text-normal);
+        padding: 5px 0px 5px 10px;
+        content: 'Discover';
+        position: absolute;
+        padding-top: 10px;
+        z-index: 101;
+        width: 230px;
+        top: -0px;
+    }
+}
+.categoryItem-ONe8JV{
+    border-radius: var(--primary-rounding);
+    margin-left: 0 !important;
+    .layout-2DM8Md{
+        border-radius: var(--primary-rounding);
+    }
+    &:nth-child(2){
+        margin-top: 65px;
+    }
+}
+.categoryItem-ONe8JV.selectedCategoryItem-28UllF .itemInner-1XfZdz{
+    background-color: var(--background-modifier-active) !important;
+}

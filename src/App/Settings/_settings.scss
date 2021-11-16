@@ -1,0 +1,18 @@
+.standardSidebarView-3F1I7i{
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    .contentRegion-3nDuYy{
+        background: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+        margin-left: 0 !important;
+        justify-content: center;
+        .contentRegionScroller-26nc1e{
+            background-color: transparent;
+            .contentColumnDefault-1VQkGM{
+                min-width: calc(100% - 45px);
+                padding: 60px 20px 20px;
+            }
+        }
+    }
+}

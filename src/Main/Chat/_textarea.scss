@@ -1,0 +1,44 @@
+.form-2fGMdU{
+    padding: 0 var(--primary-spacing);
+    padding-right: 0 !important;
+    .channelTextArea-rNsIhG{
+        border-radius: var(--primary-rounding);
+        margin-bottom: var(--primary-spacing);
+        background-color: transparent;
+        .scrollableContainer-2NUZem{
+            background-color: transparent;
+            border-radius: 0;
+            .sansAttachButton-td2irx{
+                padding: 0;
+                .attachWrapper-2TRKBi{
+                    background-color: var(--background-tertiary);
+                    border-radius: var(--primary-rounding);
+                    width: 50px;
+                    .attachButton-2WznTc{
+                        margin: 0 !important;
+                        height: 100%;
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+                .textArea-12jD-V{
+                    background-color: var(--background-tertiary);
+                    border-radius: var(--primary-rounding);
+                    margin: 0 var(--primary-spacing);
+                    .placeholder-37qJjk,
+                    .slateTextArea-1Mkdgw{
+                        padding: var(--secondary-rounding);
+                    }
+                }
+                .buttons-3JBrkn{
+                    background-color: var(--background-tertiary);
+                    border-radius: var(--primary-rounding);
+                    margin: 0;
+                }
+            }
+        }
+    }
+    &::before{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.attachedBars-tZDmyV{
+    background: var(--background-tertiary);
+    margin-bottom: var(--primary-spacing);
+    border-radius: var(--primary-rounding);
+    width: min-content;
+    .clipContainer-eeROt0{
+        padding: 0;
+        margin: 0;
+        .replyBar-1YLQ2F{
+            background: var(--background-tertiary);
+            border-radius: var(--primary-rounding);
+            .name-hpTFiv{
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+.jumpToPresentBar-G1R9s6{
+    background-color: var(--background-tertiary);
+    border-radius: var(--primary-rounding);
+    bottom: var(--secondary-spacing);
+    left: var(--primary-spacing);
+    width: fit-content;
+    padding: 3px;
+    opacity: 1;
+}
+.newMessagesBar-265mhP{
+    background-color: var(--background-tertiary);
+    border-radius: var(--primary-rounding);
+    right: var(--primary-spacing);
+    left: var(--primary-spacing);
+    top: var(--primary-spacing);
+    padding: 3px;
+    opacity: 1;
+}
+.base-gE7OpD{
+    background-color: var(--background-tertiary);
+    border-radius: var(--primary-rounding);
+    margin: var(--primary-spacing);
+    margin-left: 0 !important;
+    position: relative;
+    padding: 3px;
+    left: 0;
+}

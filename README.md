@@ -1,31 +1,34 @@
-<h1 align=center> Nebula</h1> 
-<h2 align=center> Round..ish, Deep Sea Blue, Consistent, Nebula!</h2>
+# Nebula v5
+### Round, blue, consistent, Nebula!
 
-<div style="display:flex; flex-direction: row; grid-gap: 5px;">
-    <img alt="extended" src="assets/screenshots/hidden.png" />
-    <img alt="hidden" src="assets/screenshots/open.png" />
-</div>
+## Table of context
+- [Overview](#overview)
+- [Getting Started](#Getting-Started)
+- [Licensing](#Licensing)
 
-<h1></h1>
+## Overview
 
-# Overview
-### Nebula is the first theme with js (for no reason), that grabs some cool color palette and alittle neomorphism and made a baby and this thing is what showed up.
-<br>
+### Description
+Nebula is my bubby, round theme that I've been working on for awhile. It's UI is consistent and smooth, just to your liking. I hope you enjoy it!
+### Todo
+You can check out what's planned for Nebula in the future [here](https://github.com/Loremly/Nebula/blob/main/TODO.md)
 
-# Installation 
-## Prerequisites 
-### This Plugin requires the latest version of [Powercord](https://powercord.dev/installation) and [Discord Canary](https://discordia.me/en/canary)
+### Changelogs
+Every change to Nebula will be logged in the [changelog](https://github.com/Loremly/Nebula/blob/main/changelog.md) (Not including text file changes.)
 
-# Plugin Installation
-### For [Powercord](https://powercord.dev) users who do not have [Plugin Downloader](https://github.com/LandenStephenss/PowercordPluginDownloader) You can install the theme with the command below. 
+## Getting Started
 
-```    
-cd powercord/src/powercord/plugins && git clone https://github.com/loremly/nebula
+### Prerequisites
+
+For this Powercord theme you need the [**Discord Canary**](https://discordia.me/en/canary) Version and a [**Powercord**](https://powercord.dev/installation) Installation.
+
+### Installation
+
+To Download and Install the Theme use this command:
+
 ```
-### Updates
-Each and every update as well as information regarding this funky commit names can be found in the repos [Changlogs](https://github.com/Loremly/Nebula/blob/main/changelog.md)
-# License
-### This project is licensed under the `GNU-GPL v3`. For more information check the raw [License](https://github.com/Loremly/Nebula/blob/main/LICENSE.MD)
+cd powercord/src/Powercord/themes && git clone https://github.com/Loremly/Nebula
+```
 
-# Support
-### For support go to the [Powercord](https://discord.gg/2dp4n5qdNm) Server
+## Licensing
+This project is licensed under the GPL-3.0 License - see the [license.md](https://github.com/Loremly/Nebula/blob/main/LICENSE.MD) file for more details.

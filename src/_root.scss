@@ -1,58 +1,74 @@
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Root Variables           ║ Values that can be used globally so I dont have to copy and paste the same value.       ║
-// ╠══════════════════════════╬═════════════════════════════════════════════════════════════════════════════════════════╣
-// ║ Color Variables          ║ Color variables in HEX format will be here.                                             ║
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+// ║ Note!                                                                                                              ║
+// ╠════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Variables with a numerical values will have variants; Primary, Secondary, Tertiary. Secondary variables will have  ║
+// ║ twice the value of the Primary variables. Tertiary Variables will have four times the value of the Primary         ║
+// ║ variable. Changing the multiplier value of the secondary and tertiary variables will significantly affect Nebula.  ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╗
+// ║ Variables                ║ Variables are values that can be used across the Nebula code.                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-.theme-dark,
-.theme-light {
+
+:root{
+    // ╔══════════════════════╦════════════════════════════════════╗
+    // ║ Color Variables      ║ Format: HEX, var()                 ║
+    // ╚══════════════════════╩════════════════════════════════════╝
+
     --background-primary: #25294a;
     --background-secondary: #202442;
     --background-secondary-alt: #2D325A;
     --background-tertiary: #1B1F38;
 
-    --button-background-primary: #3b4175;
-    --button-background-secondary: #1e2449; 
-    --button-background-hover-primary: #242a5a;
-    --button-background-hover-secondary: #2e3250;
+    --btn-bg-primary: #2c3263;
+    --btn-bg-secondary: #202442;
+    --btn-bg-primary-hover: #1b1e35;
+    --btn-bg-secondary-hover: #22295a;
 
-    --interactive-normal: #d8dee9;
-    --interactive-active: #fff;
-    --interactive-hover: #bbc0ca;
+    --background-modifier-selected: var(--background-secondary);
+    --background-modifier-hover: var(--background-primary);
+    --background-modifier-active: var(--background-secondary-alt);
 
-    --scrollbar-auto-thumb: var(--background-secondary-alt);
-    --scrollbar-thin-thumb: var(--background-secondary-alt);
-    --scrollbar-auto-track: var(--background-secondary);
+    --interactive-active: #ffffff;
+    --interactive-hover: #ffffff6e;
+    --interactive-normal: #ffffffc9;
 
-    --background-modifier-selected: var(--background-secondary-alt);
-    --background-modifier-hover: var(--background-secondary);
-    --background-modifier-active: var(--background-tertiary);
+    --text-normal: #d8dee9;
+    --text-secondary: #d8dee98a;
 
-    --channeltextarea-background: var(--background-tertiary);
+    --text-link: var(--text-normal);
+
     --focus-primary: #fff;
 
-    --header-primary: var(--text-normal);
-    --header-secondary: var(--text-muted);
-    --text-normal: #d8dee9;
+    // ╔══════════════════════╦════════════════════════════════════╗
+    // ║ Text Variables       ║ Format: 'text';                    ║
+    // ╚══════════════════════╩════════════════════════════════════╝
 
-}
+    --theme: 'Nebula';
+    --author: 'Loremly';
+    --version: 'v5.0.0';
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Cosmetic Variables       ║ Variables that change the appearance of elements aside from colors                      ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-:root{
+    // ╔══════════════════════╦════════════════════════════════════╗
+    // ║ Cosmetic Variables   ║ Format: px, calc()                 ║
+    // ╚══════════════════════╩════════════════════════════════════╝
+
     --primary-rounding: 5px;
-    --secondary-rounding: calc(var(--secondary-rounding) * 2);
-    --tertiary-rounding: calc(var(--secondary-rounding) * 2);
+    --secondary-rounding: calc(var(--primary-rounding) * 2);
+    --tertiary-rounding: calc(var(--primary-rounding) * 4);
 
     --primary-spacing: 10px;
     --secondary-spacing: calc(var(--primary-spacing) * 2);
-    --tertiary-spacing: calc(var(--secondary-spacing) * 2);
+    --tertiary-spacing: calc(var(--primary-spacing) * 4);
+
+    --sidebar-width: 260px;
+
+    --transition-normal: 250ms;
+    --transition-slow: calc(var(--transition-normal) * 2) ease;
+    --transition-fast: cal(var(--transition-normal) / 2) ease;
 
     --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
     --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
     --server-container: calc(var(--server-size) + 20px);
 
-    --sidebar-width: 280px;
-    --sidebar-content-width-1: 260px;
-    --sidebar-content-width-2: 240px;
+    --saturation-factor: 1 !important;
 }

@@ -1,0 +1,29 @@
+.panels-j1Uci_{
+    border-radius: var(--primary-rounding);
+    .container-3baos1{
+        border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
+        background-color: var(--background-primary);
+        top: calc(var(--tertiary-spacing) * 2.96);
+        left: var(--secondary-spacing);
+        position: absolute;
+        width: 224px;
+        z-index: 100;
+    }
+    .wrapper-24pKcD{
+        .container-1giJp5{
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            margin: var(--primary-spacing);
+            border: none;
+            button{
+                border-radius: var(--primary-rounding);
+            }
+        }
+    }
+    .activityPanel-28dQGo{
+        background-color: var(--background-primary);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+        border: none;
+    }
+}

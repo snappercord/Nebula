@@ -1,0 +1,13 @@
+.chat-3bRxxu {
+    background: transparent;
+    .content-yTz4x3 {
+        margin: var(--primary-spacing);
+        .chatContent-a9vAAp{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--primary-rounding);
+        }
+        &::before {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.container-3w7J-x{
+    background-color: transparent;
+    .scroller-RmtA4e{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing) 0;
+        .wrapper-PY0fhH{
+            color: var(--interactive-normal);
+            .icon-2yIBmh,
+            .container-2ax-kl{
+                color: var(--interactive-normal);
+            }
+            &:hover{
+                .icon-2yIBmh,
+                .container-2ax-kl{
+                    color: var(--interactive-hover);
+                }
+            }
+        }
+        .unread-2lAfLh{
+            background-color: var(--background-tertiary);
+            border-radius: var(--primary-rounding);
+            right: var(--secondary-spacing);
+            left: unset;
+            height: 20px;
+            width: 5px;
+            z-index: 1;
+            top: 11px;
+        }
+        .content-1x5b-n{
+            margin: 0 var(--primary-spacing);
+            .iconItem-F7GRxr{
+                display: none;
+            }
+            .icon-1DeIlz{
+                color: var(--interactive-active);
+            }
+            .mentionsBadge-3tC7Mi{
+                .numberBadge-2s8kKX{
+                    background-color: transparent !important;
+                    position: relative;
+                    right: 8px;
+                    &::before{
+                        background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+                        border-radius: var(--primary-rounding);
+                        position: absolute;
+                        height: 20px;
+                        content: '';
+                        z-index: 1;
+                        width: 5px;
+                        left: 17px;
+                    }
+                }
+            }
+        }
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .unreadTop-3rAB3r{
+        margin-top: var(--primary-spacing);
+    }
+}

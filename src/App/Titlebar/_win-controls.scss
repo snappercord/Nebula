@@ -1,0 +1,13 @@
+.winButton-iRh8-Z{
+    background-color: var(--background-primary);
+    transition: var(--transition-normal);
+    height: 30px;
+    width: 42px;
+    top: 0;
+    &:nth-child(3),
+    &:nth-child(4) {
+        &:hover{
+            background-color: var(--background-secondary-alt);
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.sidebarRegion-VFTUkN{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--primary-rounding);
+    margin: var(--primary-spacing);
+    width: var(--sidebar-width);
+    justify-content: center;
+    flex: none;
+    .sidebarRegionScroller-3MXcoP{
+        background: transparent;
+        width: 100%;
+        .sidebar-CFHs9e{
+            padding: 0 var(--primary-spacing);
+            padding-top: 30px !important;
+            width: 100%;
+            .info-1VyQPT{
+                text-transform: none;
+                .size12-3cLvbJ{
+                    text-transform: capitalize;
+                }
+                &:last-child{
+                    &::after{
+                        content: var(--theme)' ' '('var(--version)')';
+                        color: var(--text-muted);
+                        display: inline-block;
+                        line-height: 16px;
+                        font-size: 12px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}

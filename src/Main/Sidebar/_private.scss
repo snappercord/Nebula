@@ -1,0 +1,33 @@
+.privateChannels-1nO12o{
+    margin-top: calc(var(--tertiary-spacing) * 1.5);
+    background-color: transparent;
+    .searchBar-6Kv8R2{
+        border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
+        padding-bottom: calc(var(--tertiary-spacing) * 1.6);
+        background-color: var(--background-secondary-alt);
+        box-shadow: none;
+        z-index: 0;
+        .searchBarComponent-32dTOx{
+            border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
+            background-color: var(--background-primary);
+            font-size: 16px;
+            height: 50px;
+        }
+    }
+    .scroller-1JbKMe{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing) 0;
+        [style="height: 8px;"]{
+            height: var(--primary-spacing) !important;
+        }
+        .channel-2QD9_O{
+            border-radius: var(--primary-rounding);
+            margin: 0 var(--primary-spacing);
+            max-width: unset;
+        }
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.container-1r6BKw.themed-ANHk51{
+    background: var(--background-secondary-alt);
+    border-radius: var(--primary-rounding);
+    padding: var(--primary-spacing);
+    margin: var(--primary-spacing);
+    margin-bottom: 0 !important;
+    width: unset;
+    .children-19S4PO{
+        .iconWrapper-2OrFZ1,
+        .divider-3FBTu8,
+        .topic-TCb_qw,
+        &::after{
+            display: none;
+        } 
+        .title-29uC1r{
+            text-transform: capitalize;
+        }
+    }
+    .toolbar-1t6TWx{
+        [href="https://support.discord.com"]{
+            display: none;
+        }
+    }
+}
