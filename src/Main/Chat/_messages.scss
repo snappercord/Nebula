@@ -33,3 +33,12 @@
         right: 0;
     }
 }
+.replying-1x3H0T{
+    &::before{
+        border-radius: var(--primary-rounding);
+        margin: var(--primary-spacing);
+        left: unset;
+        width: 5px;
+        right: 0;
+    }
+}

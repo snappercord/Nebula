@@ -58,5 +58,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF | M-U</td>
          <td>Forgot to add screenshot img / Styled boost progress bar element</td>
       </tr>
+      <tr>
+         <td>2021-11-16</td>
+         <td>BF</td>
+         <td>Fixed disabled channetextarea and replying message</td>
+      </tr>
    </tbody>
 </table>

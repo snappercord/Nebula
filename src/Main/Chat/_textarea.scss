@@ -30,6 +30,9 @@
                         padding: var(--secondary-rounding);
                     }
                 }
+                .textAreaDisabled-3-Eq_G{
+                    margin: 0 !important;
+                }
                 .buttons-3JBrkn{
                     background-color: var(--background-tertiary);
                     border-radius: var(--primary-rounding);
@@ -40,5 +43,11 @@
     }
     &::before{
         display: none;
+    }
+}
+.channelTextArea-3bF57p{
+    .scrollableContainer-2NUZem{
+        background-color: var(--background-tertiary);
+        border-radius: var(--primary-rounding);
     }
 }
