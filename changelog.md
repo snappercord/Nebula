@@ -1,6 +1,8 @@
 # Changelog.md
 All notable changes to this project will be documented in this file.
 
+Changelog will only document changes to Nebula's looks.
+
 ## Note
 Commits have will have their own code depending on the amount of change done to the visual elements of Nebula or it's file structure.
 
